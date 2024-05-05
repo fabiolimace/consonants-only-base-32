@@ -23,7 +23,7 @@ The proposed alphabet is a list of sixteen uppercase and lowercase letters, resu
 
 This alphabet can be used to both encode integers and byte arrays. The integers should be encoded by the [regular algorithm](https://stackoverflow.com/questions/2267362/how-to-convert-an-integer-to-a-string-in-any-base) which uses remainder operation. The byte arrays should be encoded following the [RFC 4648](https://datatracker.ietf.org/doc/html/rfc4648) recipe, except for the alphabet.
 
-We do not recommend using splitting characters such as dashes. We also do not recommend using padding such as equals signs. In both cases, it must be expressed in documentation when necessary for a particular application.
+We do not recommend using separators such as dashes. We also do not recommend using padding such as equals signs. In both cases, it must be expressed in documentation when necessary for a particular application.
 
 The following table maps each symbol to its respective value.
 
