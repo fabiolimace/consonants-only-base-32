@@ -1,7 +1,7 @@
 Consonants-only Base 32
 ===================================
 
-This brief document specifies a consonants-only alphabet for base 32 encoding.
+This brief document specifies a consonants-only alphabet for [base 32](https://en.wikipedia.org/wiki/Base32) encoding.
 
 Overview
 -----------------------------------
