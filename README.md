@@ -87,8 +87,8 @@ The following table shows a list of UUIDs encoded to our consonants-only base 32
 | UUIDs version 4                        | Base 32 strings              |
 |:--------------------------------------:|:----------------------------:|
 | `00000000-0000-0000-0000-000000000000` | `BBBBBBBBBBBBBBBBBBBBBBBBBB` |
-| `222e11dd-91d1-400d-994c-dadd71d28015` | `GNmCFmScqHBBrKbSrRXmFggBDg` |
-| `c460fffc-c456-4df7-a28e-ebaffcf78e3a` | `ncQZzzKGbpKzZNgXtXmzptsXMN` |
+| `222e11dd-91d1-400d-994c-dadd71d28015` | `GNmCFmScqHBBrKQSrRXmFggBDg` |
+| `c460fffc-c456-4df7-a28e-ebaffcf78e3a` | `ncbZzzKGQpKzZNgXtXmzptsXMN` |
 | `75a847d7-0c6f-4119-a096-0e69536f925d` | `XkgGZhnSTtBcfNGkCpghKrsdRg` |
 | `ffffffff-ffff-ffff-ffff-ffffffffffff` | `zzzzzzzzzzzzzzzzzzzzzzzzzs` |
 
@@ -100,15 +100,15 @@ from uuid import UUID;
 from base64 import b32encode;
 alphabet = "BCDFGHKMNPQRSTXZbcdfghkmnpqrstxz"
 def encode(value, alphabet): 
-    standard = "ABCDEFGHIJKLMNOPKRSTUVWXYZ234567"
+    standard = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567"
     translator = str.maketrans(standard, alphabet)
     return b32encode(value.bytes).decode("ascii").translate(translator).replace("=", "")
 
 print(encode(UUID("00000000-0000-0000-0000-000000000000"), alphabet))
-print(encode(UUID("ffffffff-ffff-ffff-ffff-ffffffffffff"), alphabet))
+print(encode(UUID("222e11dd-91d1-400d-994c-dadd71d28015"), alphabet))
 print(encode(UUID("c460fffc-c456-4df7-a28e-ebaffcf78e3a"), alphabet))
 print(encode(UUID("75a847d7-0c6f-4119-a096-0e69536f925d"), alphabet))
-print(encode(UUID("222e11dd-91d1-400d-994c-dadd71d28015"), alphabet))
+print(encode(UUID("ffffffff-ffff-ffff-ffff-ffffffffffff"), alphabet))
 ```
 
 License
