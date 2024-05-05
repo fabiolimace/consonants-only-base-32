@@ -61,8 +61,8 @@ The following table is a list of integers encoded to our consonants-only base 32
 
 The following Python code was used to generate the table.
 
-```javascript
-#!/bin/env python3
+```python
+#!/usr/bin/python3
 alphabet = "BCDFGHKMNPQRSTXZbcdfghkmnpqrstxz"
 def encode(number, alphabet):
     output = ""
