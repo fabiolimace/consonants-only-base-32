@@ -16,6 +16,9 @@ Some use cases can be:
 * Represent 64-bit IDs as strings in languages such as Javascript, which hold 53-bit integers in memory;
 * Have an alternative string format for UUIDs, which are disliked by some people for its length and dashes.
 
+> **NOTE:**
+> Obviously the idea of ​​using only consonants is not original, as has been mentioned [elsewhere](https://www.codeproject.com/Tips/76650/Base-base-url-base-url-and-z-base-Encoding-and). This document only proposes a reasonable alphabet, out of many possible ones, that is ready to use.
+
 Description
 -----------------------------------
 
