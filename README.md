@@ -123,4 +123,4 @@ This document is in public domain, i.e. with no rights reserved, under the terms
 
 -----------------------------------
 
-<em>A static version of this document is hosted at </em><em>https://fabiolimace.github.io/consonants-only-base-32/</em>.
+<em>A static version of this document is hosted at [https://fabiolimace.github.io/consonants-only-base-32/](https://fabiolimace.github.io/consonants-only-base-32/)</em>.
