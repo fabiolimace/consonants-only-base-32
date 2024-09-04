@@ -123,7 +123,7 @@ Appendix
 
 ### Consonants-only Base 16
 
-This short appendix specifies a consonants-only alphabet for [base 16](https://en.wikipedia.org/wiki/Base16) encoding.
+This appendix specifies a consonants-only alphabet for [base 16](https://en.wikipedia.org/wiki/Base16) encoding.
 
 This alphabet is a list of 16 letters, without distinction between upper and lower case.
 
@@ -141,6 +141,26 @@ The following table maps each base-16 value with its respective letter in upper 
 | **5** | H / h | **13** | T / t |
 | **6** | K / k | **14** | X / x |
 | **7** | M / m | **15** | Z / z |
+
+The following table is a list of base 16 encoded integers.
+
+| Positive integers    | Base 32         |
+|:--------------------:|:---------------:|
+| `0x000000000000`     | `B`             |
+| `0x000000000ac9`     | `QSP`           |
+| `0x000000b1cd82`     | `RCSTND`        |
+| `0x00057e088d9b`     | `HMXBNNTPR`     |
+| `0x7fffffffffff`     | `MZZZZZZZZZZZ`  |
+
+The following table is a list of base 32 encoded UUIDs.
+
+| UUIDs version 4                        | Base 32                            |
+|:--------------------------------------:|:----------------------------------:|
+| `00000000-0000-0000-0000-000000000000` | `BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB` |
+| `222e11dd-91d1-400d-994c-dadd71d28015` | `DDDXCCTTPCTCGBBTPPGSTQTTMCTDNBCH` |
+| `c460fffc-c456-4df7-a28e-ebaffcf78e3a` | `SGKBZZZSSGHKGTZMQDNXXRQZZSZMNXFQ` |
+| `75a847d7-0c6f-4119-a096-0e69536f925d` | `MHQNGMTMBSKZGCCPQBPKBXKPHFKZPDHT` |
+| `ffffffff-ffff-ffff-ffff-ffffffffffff` | `ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ` |
 
 The following [ABNF](https://en.wikipedia.org/wiki/Augmented_Backus%E2%80%93Naur_form) is the formal definition of the base-16 alphabet.
 
