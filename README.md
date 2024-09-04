@@ -131,16 +131,12 @@ The encoder should preferably encode using upper case letters, while the decoder
 
 The following table maps each base-16 value with its respective letter in upper or lower case.
 
-| Value | Symbol | Value | Symbol |
-| :---: | :----: | :---: | :----: |
-| **0** | B / b |  **8** | N / n |
-| **1** | C / c |  **9** | P / p |
-| **2** | D / d | **10** | Q / q |
-| **3** | F / f | **11** | R / r |
-| **4** | G / g | **12** | S / s |
-| **5** | H / h | **13** | T / t |
-| **6** | K / k | **14** | X / x |
-| **7** | M / m | **15** | Z / z |
+| Value | Symbol | Value | Symbol | Value | Symbol | Value | Symbol |
+| :---: | :----: | :---: | :----: | :---: | :----: | :---: | :----: |
+| **0** | B / b | **4** | G / g |  **8** | N / n | **12** | S / s |
+| **1** | C / c | **5** | H / h |  **9** | P / p | **13** | T / t |
+| **2** | D / d | **6** | K / k | **10** | Q / q | **14** | X / x |
+| **3** | F / f | **7** | M / m | **11** | R / r | **15** | Z / z |
 
 The following table is a list of base 16 encoded integers.
 
