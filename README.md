@@ -123,7 +123,7 @@ Appendix
 
 ### Consonants-only Base 16
 
-This short appendix specifies a consonants-only alphabet for [base 16](https://en.wikipedia.org/wiki/Base32) encoding.
+This short appendix specifies a consonants-only alphabet for [base 16](https://en.wikipedia.org/wiki/Base16) encoding.
 
 This alphabet is a list of 16 letters, without distinction between upper and lower case.
 
