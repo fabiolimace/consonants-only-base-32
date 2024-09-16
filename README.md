@@ -140,7 +140,7 @@ The following table maps each base-16 value with its respective letter in upper 
 
 The following table is a list of base 16 encoded integers.
 
-| Positive integers    | Base 32         |
+| Positive integers    | Base 16         |
 |:--------------------:|:---------------:|
 | `0x000000000000`     | `B`             |
 | `0x000000000ac9`     | `QSP`           |
@@ -148,9 +148,9 @@ The following table is a list of base 16 encoded integers.
 | `0x00057e088d9b`     | `HMXBNNTPR`     |
 | `0x7fffffffffff`     | `MZZZZZZZZZZZ`  |
 
-The following table is a list of base 32 encoded UUIDs.
+The following table is a list of base 16 encoded UUIDs.
 
-| UUIDs version 4                        | Base 32                            |
+| UUIDs version 4                        | Base 16                            |
 |:--------------------------------------:|:----------------------------------:|
 | `00000000-0000-0000-0000-000000000000` | `BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB` |
 | `222e11dd-91d1-400d-994c-dadd71d28015` | `DDDXCCTTPCTCGBBTPPGSTQTTMCTDNBCH` |
